@@ -23,7 +23,7 @@ include( "inc_nav.php" ); ?>
 
     <p><a href="subscribe.php">Subscribe now to our professional advice service.</a></p>
 
-    <h3>Services</h3>
+    <p><strong>Services</strong>.</p>
     <p><img src="images/womanHeadset.jpg" alt="" width="310" height="200"
                                       class="rightImage"/>For all advice related to:</p>
     <ul>
