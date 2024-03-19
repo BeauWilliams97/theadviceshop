@@ -35,13 +35,19 @@ nav {
     padding-bottom: 0.5em;
 }
 
+nav ul {
+    text-align: center;
+}
+
 nav ul li {
     display: inline-block;
     list-style-type: none;
     text-align: center;
     box-sizing: border-box;
     padding: 0.2em;
-    width: 24%;
+    width: 150px;
+    margin-right: 8px;
+    margin-left: 8px;
     /*	height: 2em;*/
     border: thin solid #000000;
     border-radius: 10px;
