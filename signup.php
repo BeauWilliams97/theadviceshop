@@ -24,7 +24,8 @@
         button {
             width: auto;
             padding: 10px 20px;
-            background-color: #4CAF50;
+            background-color: grey;
+            border: thin solid black;
             border: none;
             color: white;
             text-align: center;
@@ -37,7 +38,7 @@
 
         /* Hover effect for button */
         button:hover {
-            background-color: #45a049;
+            background-color: #A8CFB1;
         }
 
         /* Center the button */
@@ -53,7 +54,7 @@
     <div style="text-align: center;">
         <h1>Create an account</h1>
         
-        <form action="process-signup.php" method="post" id="signup" novalidate style="display: inline-block; text-align: left;">
+        <form action="process-signup.php" method="post" novalidate style="display: inline-block; text-align: left;">
             <div>
                 <label for="name">Name</label>
                 <input type="text" id="name" name="name">
