@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Sign Up - The Advice Shop</title>
     <link href="styles/mainstyles.css" rel="stylesheet" type="text/css" media="screen">
+    <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js" defer></script>
+    <script src="C:\xampp\htdocs\theadviceshop\js\validation.js" defer></script>
     <style>
         /* Add custom styles for uniform input boxes */
         input[type="text"],
@@ -54,7 +56,7 @@
     <div style="text-align: center;">
         <h1>Create an account</h1>
         
-        <form action="process-signup.php" method="post" novalidate style="display: inline-block; text-align: left;">
+        <form action="process-signup.php" method="post" id="signup" novalidate style="display: inline-block; text-align: left;">
             <div>
                 <label for="name">Name</label>
                 <input type="text" id="name" name="name">
