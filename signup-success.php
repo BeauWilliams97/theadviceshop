@@ -11,8 +11,10 @@
 <?php include( "inc_header.php" );
 include( "inc_nav.php" ); ?>
 <section id="content">
-    <h2>Signup Successful</h2>
-    <p style="text-align: center;"><strong>Welcome to the advice shop!</strong></p>
+<h1>Signup</h1>
+    
+    <p>Signup successful.
+       You can now <a href="login.php">log in</a>.</p>
 </section>
 <?php include( "inc_footer.php" ); ?>
 </body>
