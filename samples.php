@@ -1,4 +1,8 @@
-<?php include("dbconnect.php"); ?>
+<?php
+include("dbconnect.php");
+/*Can't have multiple sessions open at the same time, need to close to prevent conflicts.*/
+session_write_close();
+?>
 <!doctype html>
 <html>
 <head>
